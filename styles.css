@@ -1,0 +1,129 @@
+body {
+  background-color: #b3ecff;
+  text-align: center;
+  background-image: -webkit-linear-gradient(70deg, #A2B38B 50%, #E4E9BE 50%);
+
+}
+
+h1 {
+    color: black;
+        text-align: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.row {
+    display: -ms-flexbox;
+}
+
+.table {
+    border : 1px solid black;
+    width: 30%;
+    float: left;
+    border-bottom-style: ridge;
+    border-color: aqua;
+    border-collapse: separate;
+    border-style: outset;
+    border-width: thick;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 35%;
+}
+
+#buttonDigits {
+    background-color: #4CAF50; /* Green */
+    border: block
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: style;
+    display: outline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#buttonDigits:hover {
+    background-color: #45a049;
+}
+
+#mathOperator {
+    background-color: #a8326b; /* Green */
+    border: block;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none; ;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#mathOperator:hover {
+    background-color: #9b2c6f;
+}
+
+#clearButton {
+    background-color: #4432a8; /* Green */
+    border: block;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#clearButton:hover {
+    background-color: #2c6f9b;
+}
+
+
+
+#display {
+    background-color: #f1f1f1;
+    border: box;
+    color: black;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 5px 2px #888888;
+    animation-name: example;
+  animation-duration: 4s;
+  
+}
+
+#topButtons {
+    background-color: tomato; /* Green */
+    border: block;
+    color: black;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    gap: 200px;
+}
+
+#topButtons:hover {
+    background-color: #e60000;
+}
